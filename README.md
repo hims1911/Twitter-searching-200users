@@ -1,5 +1,5 @@
 # Twitter-searching-200users
-## Python script to fetch the data from the data from Twitter
+## Python script to fetch the data from the Twitter
 <br/>
 <ul>
   <li> config.py : for setting up authentication </li>
