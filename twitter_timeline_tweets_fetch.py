@@ -15,7 +15,7 @@ dict1 = {}
 ab = open("status.txt","w")
 
 for i in range(1,2):
-	results = twitter.users.search(q = '"Blockchain developer"',page = i)
+	results = twitter.users.search(q = '"developer"',page = i)
 	for user in results:
 		dict1[user["screen_name"]] = user["location"]
 		string1 = user["screen_name"]
